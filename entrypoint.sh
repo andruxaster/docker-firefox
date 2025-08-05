@@ -14,3 +14,5 @@ vncserver $DISPLAY -depth $VNC_COL_DEPTH -geometry $VNC_RESOLUTION -SecurityType
 nginx -c /etc/nginx/nginx.conf &
 wait 10
 firefox &
+wait
+
